@@ -129,7 +129,6 @@ img {
     display: flex;
     justify-content: space-between;
     gap: 35px;
-    padding-top: 30px;
 }
 
 .donate_plan .box {
@@ -192,6 +191,7 @@ img {
     font-size: 18px;
     background-color: #2b9348;
     color: #fff;
+    cursor: pointer;
 }
 
 
