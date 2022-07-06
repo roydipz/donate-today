@@ -15,7 +15,7 @@
     color: #fff;
     padding: 12px 30px;
     text-decoration: none;
-    background-image: linear-gradient(to right, #53ad1b, #62f711);
+    background-image: linear-gradient(to right, #53ad1b, #2b9348);
     border-radius: 5px;
     display: inline-block;
 }
@@ -172,7 +172,7 @@ img {
     background-color: #a37f3d2d;
     border-radius: 10px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.114);
-    margin-top: 70px;
+    margin-top: 0px;
 }
 
 .contact_box input {
@@ -213,7 +213,7 @@ img {
 .team .content {
     text-align: center;
     width: 80%;
-    background-color: #87d9e2;
+    background-color: #2b9348;
     margin: auto;
     padding: 20px 0;
     border-radius: 0 0 15px 15px;
@@ -221,12 +221,12 @@ img {
     margin-top: -10px;
 }
 .team .content span{
-    color: #2b9348;
+    color: #222;
     font-size: 14px;
 }
 .team .content h4 {
     font-size: 24px;
-    color: #222;
+    color: #fff;
 }
 
 
