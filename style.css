@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+}
+
+.default_btn {
+    font-size: 18px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #53ad1b, #62f711);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.section_heading {
+    text-align: center;
+    width: 640px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.title {
+    font-family: 'Nunito', sans-serif;
+    font-size: 45px;
+    color: #2b9348;
+    margin-bottom: 20px;
+}
+
+.text {
+    color: #707070;
+    line-height: 30px;
+}
+
+section {
+    padding: 70px 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+
+
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.237), rgba(0, 0, 0, 0.51)), url(images/donation4.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner h1 {
+    color: #fff;
+    font-size: 65px;
+    font-weight: bold;
+    width: 820px;
+    margin: auto;
+}
+
+.banner p {
+    color: #fff;
+    font-size: 18px;
+    width: 700px;
+    margin: 15px auto 40px;
+}
+
+
+
+
+.quick_donate {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+
+.amount_box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 55px;
+}
+
+.amount_box h4 {
+    padding: 50px 0;
+    background-color: #e3f8ee;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #707070;
+    flex: 1;
+    text-align: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.134);
+}
+
+.amount_box .selected {
+    border: 2px solid #2b9348;
+    color: #2b9348;
+}
+
+.quick_donate_input {
+    width: 100%;
+    display: block;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+
+
+.donate_plan .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 35px;
+    padding-top: 30px;
+}
+
+.donate_plan .box {
+    padding: 50px 25px;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 0.114);
+    border-radius: 10px;
+}
+
+.donate_plan .box_image {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.donate_plan h4 {
+    font-size: 24px;
+    color: #121212;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.donate_plan .box1 {
+    background-color: #4f9da655;
+}
+
+.donate_plan .box2 {
+    background-color: #ff595949;
+}
+
+.donate_plan .box3 {
+    background-color: #fff4d680;
+}
+
+
+.contact_box {
+    width: 800px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0;
+    background-color: #a37f3d2d;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.114);
+    margin-top: 70px;
+}
+
+.contact_box input {
+    width: 275px;
+    height: 48px;
+    border-radius: 5px 0 0 5px;
+    border: none;
+    padding: 0 20px;
+    font-size: 18px;
+    background-color: #d9d9d9;
+}
+.contact_box button {
+    padding: 0 40px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #2b9348;
+    color: #fff;
+}
+
+
+.team .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 0;
+}
+.team .container .blog_box {
+    padding: 10px;
+    flex: 1;
+}
+.team .container .last_box {
+    border: none;
+}
+.team .container .blog_box .image img {
+    border-radius: 8px;
+}
+.team .content {
+    text-align: center;
+    width: 80%;
+    background-color: #87d9e2;
+    margin: auto;
+    padding: 20px 0;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.155);
+    margin-top: -10px;
+}
+.team .content span{
+    color: #2b9348;
+    font-size: 14px;
+}
+.team .content h4 {
+    font-size: 24px;
+    color: #222;
+}
+
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    background-color: #000;
+    margin-top: 50px;
+}
+footer .title {
+    margin-bottom: 0px;
+}
+
+
+
